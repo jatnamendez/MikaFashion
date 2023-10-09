@@ -1,0 +1,54 @@
+/* landing-page.css */
+
+.landing-page {
+  text-align: center;
+  /* background-color: #FFD1DC; */
+  background-image: url(assets/fondo3.jpg);
+  padding: 20px;
+}
+
+h1{
+color: #ddd;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product {
+  width: calc(20% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: 500px;
+}
+
+.TrajeDeBaño{
+  height: 2000px;
+  width: 100;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  margin-right: 10px;
+  text-decoration: none;
+}
